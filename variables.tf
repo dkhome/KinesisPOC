@@ -3,3 +3,7 @@ locals {
 }
 
 variable "tags" {}
+
+variable "location" {
+  
+}

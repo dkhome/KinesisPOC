@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-1"
+  region = var.location[local.env_name]
 }
 
 resource "aws_resourcegroups_group" "kinesis_poc_resources" {
@@ -21,9 +21,9 @@ JSON
 }
 
 resource "aws_s3_bucket" "kinesis_bucket" {
-  bucket = "kinesis-stream-bucket-for-poc"
+  bucket = "kinesis-stream-bucket-for-poc-${var.location[local.env_name]}"
   acl    = "private"
-
+  force_destroy = true
   tags =  var.tags[local.env_name]
 }
 

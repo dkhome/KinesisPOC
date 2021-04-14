@@ -3,3 +3,7 @@ tags = {
 		"Project" 	= "KinesisPOC"
 	}
 }
+
+location = {
+	dev = "us-east-1"
+}
