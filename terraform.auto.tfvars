@@ -1,0 +1,5 @@
+tags = {
+	dev = {
+		"Project" 	= "KinesisPOC"
+	}
+}
