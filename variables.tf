@@ -4,6 +4,4 @@ locals {
 
 variable "tags" {}
 
-variable "location" {
-  
-}
+variable "location" {}

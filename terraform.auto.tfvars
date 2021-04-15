@@ -1,9 +1,9 @@
 tags = {
-	dev = {
-		"Project" 	= "KinesisPOC"
-	}
+  dev = {
+    "Project" = "KinesisPOC"
+  }
 }
 
 location = {
-	dev = "us-east-1"
+  dev = "us-east-1"
 }
