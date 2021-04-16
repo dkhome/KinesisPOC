@@ -1,3 +1,6 @@
-/.terraform.lock.hcl
-/terraform.tfstate.d
-/.terraform/
+.terraform.lock.hcl
+terraform.tfstate.d
+.terraform/
+bin/
+obj/
+.vs/
